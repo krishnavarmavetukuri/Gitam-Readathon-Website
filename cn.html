@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Network</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            background-color: #800000;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #e71313;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .content {
+            flex: 1 1 30%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        .unit-header {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .pdf-link {
+            display: block;
+            margin-bottom: 10px;
+            padding: 8px 16px;
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .pdf-link:hover {
+            background-color: #600000;
+        }
+        .subtopic {
+            margin-bottom: 10px;
+        }
+        .reference-link, .youtube-link {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 5px 10px;
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .reference-link:hover, .youtube-link:hover {
+            background-color: #600000;
+        }
+        .footer {
+            margin-top: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .previous-year-button {
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 16px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .previous-year-button:hover {
+            background-color: #600000;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <button class="back-button" onclick="window.history.back();">Back</button>
+    <h1>Computer Networks</h1>
+</div>
+
+<div class="container">
+    <!-- Unit 1 -->
+    <div class="content">
+        <div class="unit-header">UNIT - 1 Computer networks and the Internet  </div>
+        <a href="https://drive.google.com/file/d/1_z84KigIRv7fuOExuMe6TGml49DF47li/view?usp=sharing" class="pdf-link" target="_blank">PDF 1 - Version 1</a>
+        <a href="https://drive.google.com/file/d/13XlneVvo9XcXuLK7yVRa7plEM5Vkvt7q/view?usp=sharing" class="pdf-link" target="_blank">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong> The Network Core </strong><br>
+            <a href=" https://www.geeksforgeeks.org/delays-in-computer network/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=qL7ZGeSoQRM" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong> Protocol Layers and Their Service Models </strong><br>
+            <a href="https://jerry4013.github.io/Github blog/2019/09/18/Network-7.html" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=HDGp8cox5mA " class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>  History of Computer Networking </strong><br>
+            <a href="https://www.javatpoint.com/history-of-computer-networking" class="reference-link">Reference</a>
+            <a href="https://www.youtube.com/watch?v=l4q8iuqbuiQ" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+    <!-- Unit 2 -->
+    <div class="content">
+        <div class="unit-header">Unit 2  Application Layer  </div>
+        <a href="https://drive.google.com/file/d/1OHKWdxV43lNIV7nWy9u2kIrr8JbABqFR/view?usp=sharing" class="pdf-link" target="_blank">PDF 1 - Version 1</a>
+        <a href="https://drive.google.com/file/d/1OtPjzB0N8zOyNcFnQwSiPXAXATMsv6Gs/view?usp=sharing" class="pdf-link" target="_blank">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong> Principles of Network Applications-</strong><br>
+            <a href="https://www.geeksforgeeks.org/principles-of-network-applications/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=ZJFP4u-IOeI" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>Electronic Mail in the Internet</strong><br>
+            <a href="https://www.naukri.com/code360/library/electronic-mail-in-computer-networks" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=P8ncj4X9JkU&t=10s"class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong> Socket Programming </strong><br>
+            <a href="https://www.geeksforgeeks.org/socket-in-computer-network/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=XTVTlEhGS6w"class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+    <!-- Unit 3 -->
+    <div class="content">
+        <div class="unit-header">Unit 3 Introduction and Transport  </div>
+        <a href="https://drive.google.com/file/d/1x05OYJFZefAfY9lokskEqAzszF9LA-qQ/view?usp=sharing" class="pdf-link" target="_blank">PDF 1 - Version 1</a>
+        <a href="https://drive.google.com/file/d/1eNWFuFQhcuZ7bYlZTemDdo5kOTvnU6qI/view?usp=sharing" class="pdf-link" target="_blank">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong>Multiplexing and Demultiplexing </strong><br>
+            <a href="https://www.geeksforgeeks.org/digital-to-analog-conversion/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=JTJcYOiO53Q" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>AConnection-oriented Transport</strong><br>
+            <a href="https://www.geeksforgeeks.org/analog-to-analog-conversion-modulation/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=9O63NehaT-U" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>Principles of Congestion Control</strong><br>
+            <a href="https://www.geeksforgeeks.org/congestion-control-techniques-in-computer-networks/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=Fm92xvIp6JY" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+    <!-- Unit 4 -->
+    <div class="content">
+        <div class="unit-header">Unit 4 The Network Layer  </div>
+        <a href="https://drive.google.com/file/d/1ggfYMZe9F9652p2KjHViQXLd-IxA5mEB/view?usp=sharing" class="pdf-link" target="_blank">PDF 1 - Version 1</a>
+        <a href="https://drive.google.com/file/d/1DsCtUoH0XmiczqmzlIX-RGMIAZRWtlkV/view?usp=sharing" class="pdf-link" target="_blank">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong>Virtual Circuit and Datagram Networks</strong><br>
+            <a href="https://www.javatpoint.com/virtual-circuits-vs-datagram-networks" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=-S-NThI_79o" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>The Internet Protocol (IP)</strong><br>
+            <a href="https://www.techtarget.com/searchunifiedcommunications/definition/Internet-Protocol" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=_2-tKEVE9cE" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>Routing Algorithms</strong><br>
+            <a href="https://www.javatpoint.com/computer-network-routing-algorithm" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=bdh2kfgxVuw" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+    <!-- Unit 5 -->
+    <div class="content">
+        <div class="unit-header">Unit 5 The Link Layer, Wireless and Mobile Networks  </div>
+        <a href="https://drive.google.com/file/d/1ioXBxLcJaHT_TFl9zzBd2JHSkMKe41Ud/view?usp=sharing" class="pdf-link" target="_blank">PDF 1 - Version 1</a>
+        <a href="https://drive.google.com/file/d/1fOk-a6_K_gx6wj-olQvpCJTHmkA_n_5z/view?usp=sharing" class="pdf-link" target="_blank">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong> Introduction to the Link Layer</strong><br>
+            <a href="https://www.geeksforgeeks.org/data-link-layer/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=lMGWJZLTulY" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        
+        <div class="subtopic">
+            <strong>   Multiple Access Links and Protocols</strong><br>
+            <a href="https://www.geeksforgeeks.org/multiple-access-protocols-in-computer-network/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=YAjfUc7Tt24" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong> Switched Local Area Networks</strong><br>
+            <a href="https://www.geeksforgeeks.org/lan-switching/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=iH-BQ4hHhRY" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
+

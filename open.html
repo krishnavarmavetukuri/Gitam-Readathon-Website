@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-READATHON</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('https://www.gitam.edu/sites/default/files/2022-10/Administration.jpg'); /* Replace with the actual URL of your background image */
+            background-size: cover;
+            background-position: center;
+        }
+        .login-container {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            background-color: white;
+            opacity: 1.0;
+        }
+        .login-container img {
+            width: 80%;
+            margin-bottom: 20px;
+        }
+        .login-container .g-readathon {
+            background-color: #800000;
+            color: white;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .login-container .reset-password,
+        .login-container .contact-cats {
+            width: calc(50% - 10px);
+            padding: 10px;
+            margin: 10px 5px;
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .login-container .reset-password {
+            margin-left: 0;
+        }
+        .login-container .contact-cats {
+            margin-right: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <img src="https://www.gitam.edu/themes/custom/gitam/logo.png" alt="GITAM Logo">
+    <div class="g-readathon">G-READATHON</div>
+    <input id="user-id" type="text" placeholder="User ID" required>
+    <input id="password" type="password" placeholder="Password" required>
+    <button type="submit" onclick="login()">Login</button>
+    <button class="reset-password" onclick="resetPassword()">Reset password</button>
+</div>
+
+<script>
+    function resetPassword() {
+        // Implement reset password functionality
+        alert("Reset password functionality not implemented yet.");
+    }
+
+    function login() {
+        const userId = document.getElementById('user-id').value;
+        const password = document.getElementById('password').value;
+        
+        // Validate user input
+        if (!userId || !password) {
+            alert("Invalid login details. Please provide both User ID and Password.");
+        } else {
+            // Redirect to dashboard with user ID
+            window.location.href = 'dashboard.html?user=' + encodeURIComponent(userId);
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming with Python</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            background-color: #800000;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #e71313;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .content {
+            flex: 1 1 30%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        .unit-header {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .pdf-link {
+            display: block;
+            margin-bottom: 10px;
+            padding: 8px 16px;
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .pdf-link:hover {
+            background-color: #600000;
+        }
+        .subtopic {
+            margin-bottom: 10px;
+        }
+        .reference-link, .youtube-link {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 5px 10px;
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .reference-link:hover, .youtube-link:hover {
+            background-color: #600000;
+        }
+        .footer {
+            margin-top: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .previous-year-button {
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 16px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .previous-year-button:hover {
+            background-color: #600000;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <button class="back-button" onclick="window.history.back();">Back</button>
+    <h1>Programming with Python</h1>
+</div>
+
+<div class="container">
+    <!-- Unit 1 -->
+    <div class="content">
+        <div class="unit-header">UNIT - 1 Introduction to Python</div>
+        <a href="https://example.com/python-intro-pdf1" class="pdf-link" target="_blank">PDF 1 - Version 1</a>
+        <a href="https://example.com/python-intro-pdf2" class="pdf-link" target="_blank">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong>Operators</strong><br>
+            <a href="https://www.w3schools.com/python/python_operators.asp"class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=v5MR5JnKcZI" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>Expressions</strong><br>
+            <a href="https://www.geeksforgeeks.org/expressions-in-python/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=EzeeypMKx7o" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>Statements</strong><br>
+            <a href="https://www.toppr.com/guides/python-guide/python-introduction/statement-identation-comments/python-statement-indentation-and-comments/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=4u2ClNCtcgY" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+    <!-- Unit 2 -->
+    <div class="content">
+        <div class="unit-header">UNIT - 2  Functions</div>
+        <a href="https://example.com/python-control-pdf1" class="pdf-link" target="_blank">PDF 1 - Version 1</a>
+        <a href="https://example.com/python-control-pdf2" class="pdf-link" target="_blank">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong>User-defined Functions</strong><br>
+            <a href="https://www.geeksforgeeks.org/python-user-defined-functions/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=zNDpnwHM7W8" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>Lists</strong><br>
+            <a href=" https://www.w3schools.com/python/python_lists.asp" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=tw7ror9x32s" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>Tuples</strong><br>
+            <a href="https://www.w3schools.com/python/python_tuples.asp" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=W8KRzm-HUcc" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+    <!-- Unit 3 -->
+    <div class="content">
+        <div class="unit-header">UNIT - 3 Files and Packages</div>
+        <a href="https://example.com/python-functions-pdf1" class="pdf-link" target="_blank">PDF 1 - Version 1</a>
+        <a href="https://example.com/python-functions-pdf2" class="pdf-link" target="_blank">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong>Python Write/create Files</strong><br>
+            <a href="https://www.w3schools.com/python/python_file_write.asp" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=FpyV-ikYUHo" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong> Python Delete Files</strong><br>
+            <a href="https://www.w3schools.com/python/python_file_remove.asp" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=hyydAO2qSXQ" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>JSON files</strong><br>
+            <a href=" https://www.w3schools.com/js/js_json_intro.asp" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=iiADhChRriM" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+    <!-- Unit 4 -->
+    <div class="content">
+        <div class="unit-header">UNIT - 4 Operations in database with suitable libraries</div>
+        <a href="https://example.com/python-modules-pdf1" class="pdf-link" target="_blank">PDF 1 - Version 1</a>
+        <a href="https://example.com/python-modules-pdf2" class="pdf-link" target="_blank">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong>CRUD operations s</strong><br>
+            <a href="https://www.crowdstrike.com/cybersecurity-101/observability/crud/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=uNBG1d_LBdY" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>User defined packages</strong><br>
+            <a href="https://www.tutorialspoint.com/python/python_packages.htm" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=g3t5XNVqDx0" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>Test cases</strong><br>
+            <a href="https://www.geeksforgeeks.org/unit-testing-python-unittest/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=6tNS--WetLI" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+    <!-- Unit 5 -->
+    <div class="content">
+        <div class="unit-header">UNIT - 5 Regular Expressions</div>
+        <a href="https://example.com/python-file-handling-pdf1" class="pdf-link" target="_blank">PDF 1 - Version 1</a>
+        <a href="https://example.com/python-file-handling-pdf2" class="pdf-link" target="_blank">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong>Metacharacter</strong><br>
+            <a href="https://www.javatpoint.com/metacharacters-in-python" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=j6A28L6Tmxw" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>regEx functions</strong><br>
+            <a href="https://www.w3schools.com/python/python_regex.asp" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=EzeeypMKx7o" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>Web scrapping</strong><br>
+            <a href="https://www.geeksforgeeks.org/python-web-scraping-tutorial/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=QhD015WUMxE" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

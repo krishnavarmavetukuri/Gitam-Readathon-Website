@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-READATHON Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 90vh;
+            background-image: url('https://www.gitam.edu/sites/default/files/2022-08/bengalaru-campus.jpg'); /* Add your image URL here */
+            background-size: cover;
+            background-position: center;
+            opacity:2.0;
+        }
+        .header {
+            background-color: #800000;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h2 {
+            margin: 0;
+            flex-grow: 1;
+            text-align: center; /* Center align the text */
+        }
+        .user-info {
+            display: flex;
+            align-items: center;
+        }
+        .user-info img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .left-image {
+            position: bottom;
+            top: 50%;
+            left: 10px;
+            transform: translateY(30%);
+        }
+        .container {
+            display: flex;
+            flex-grow: 1;
+            background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background */
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #f4f4f4;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .sidebar button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .dialog-box {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            background-color: #ffffff;
+        }
+        .dialog-box button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+        <div class="user-info">
+        <span id="user-name">Welcome, User</span>
+        <img src="https://i.pinimg.com/originals/1f/8d/07/1f8d074a8237fa4a7d32f8d6f87874d1.png" alt="User Avatar">
+    </div>
+</div>
+
+<div class="container">
+    <div class="sidebar">
+        
+        <a href="currentYear.html" onclick="showContent('current-year')">
+            <button class="navigation-button">Current Year</button>
+        </a>
+        <a href="previousYear.html" onclick="showContent('previous-year')">
+            <button class="navigation-button">Previous Year</button>
+        </a>
+        <a href="Notes.html" onclick="showContent('upcoming-year')">
+            <button class="navigation-button">Upcoming Year</button>
+        </a>
+        <a href="PE.html" onclick="showContent('program-electives')">
+            <button class="navigation-button">Program electives</button>
+        </a>
+        <a href="OE.html" onclick="showContent('Open-electives')">
+            <button class="navigation-button">Open electives</button>
+        </a>
+        <img src="https://www.gitam.edu/themes/custom/gitam/logo.png" alt="GITAM Logo" class="left-image">
+
+    
+
+    </div>
+    <div class="main-content">
+        <h1>Welcome to the G-READATHON Dashboard</h1>
+        <h3>Get ready for the last minute preparation.</h3>
+        <div class="dialog-box">
+            <button onclick="learn()">Learn</button>
+            <button onclick="practice()">Previous Year Queston Papers</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    function getUserFromUrl() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get('user') || 'User';
+    }
+
+
+    function learn() {
+        window.location.href = 'currentYear.html';
+    }
+
+    function practice() {
+        window.location.href = 'https://digitalrepository.gitam.edu/old_question_papers';
+    }
+
+    document.getElementById('user-name').innerText = 'Welcome, ' + getUserFromUrl();
+</script>
+
+
+
+</body>
+</html>

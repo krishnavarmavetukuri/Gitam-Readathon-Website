@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artificial Neural Network</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            background-color: #800000;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #e71313;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .content {
+            flex: 1 1 30%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        .unit-header {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .pdf-link {
+            display: block;
+            margin-bottom: 10px;
+            padding: 8px 16px;
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .pdf-link:hover {
+            background-color: #600000;
+        }
+        .subtopic {
+            margin-bottom: 10px;
+        }
+        .reference-link, .youtube-link {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 5px 10px;
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .reference-link:hover, .youtube-link:hover {
+            background-color: #600000;
+        }
+        .footer {
+            margin-top: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .previous-year-button {
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 16px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .previous-year-button:hover {
+            background-color: #600000;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <button class="back-button" onclick="window.history.back();">Back</button>
+    <h1>Artificial Neural Network</h1>
+</div>
+
+<div class="container">
+    <!-- Unit 1 -->
+    <div class="content">
+        <div class="unit-header">UNIT - 1 Introduction to Neural Networks</div>
+        <a href="https://drive.google.com/file/d/1_z84KigIRv7fuOExuMe6TGml49DF47li/view?usp=sharing" class="pdf-link" target="_blank">PDF 1 - Version 1</a>
+        <a href="https://drive.google.com/file/d/13XlneVvo9XcXuLK7yVRa7plEM5Vkvt7q/view?usp=sharing" class="pdf-link" target="_blank">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong> The Basic Architecture of Neural Networks </strong><br>
+            <a href="https://www.geeksforgeeks.org/ml-architecture-and-learning-process-in-neural-network/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=LMxFMeBtP5k" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong> Training a Neural Network with Backpropagation</strong><br>
+            <a href="https://www.geeksforgeeks.org/backpropagation-in-neural-network/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=-zI1bldB8to" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong> Practical Issues in Neural Network Training</strong><br>
+            <a href="https://towardsdatascience.com/8-common-pitfalls-in-neural-network-training-workarounds-for-them-7d3de51763ad" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=03p1dpqZfq0" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+    <!-- Unit 2 -->
+    <div class="content">
+        <div class="unit-header">Unit 2 Shallow Neural Networks</div>
+        <a href="https://drive.google.com/file/d/1OHKWdxV43lNIV7nWy9u2kIrr8JbABqFR/view?usp=sharing" class="pdf-link" target="_blank">PDF 1 - Version 1</a>
+        <a href="https://drive.google.com/file/d/1OtPjzB0N8zOyNcFnQwSiPXAXATMsv6Gs/view?usp=sharing" class="pdf-link" target="_blank">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong>Neural Architectures for Binary Classification Models</strong><br>
+            <a href="https://www.atmosera.com/binary-classification-with-neural-networks/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=71GtdWmznok" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>Neural Architectures for Multiclass Models</strong><br>
+            <a href="https://towardsdatascience.com/the-complete-guide-to-neural-networks-multinomial-classification-4fe88bde7839" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=2WdPdE2hq78" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="unit-header">Unit 3 Shallow Neural Networks</div>
+        <a href="https://drive.google.com/file/d/1OHKWdxV43lNIV7nWy9u2kIrr8JbABqFR/view?usp=sharing" class="pdf-link" target="_blank">PDF 1 - Version 1</a>
+        <a href="https://drive.google.com/file/d/1OtPjzB0N8zOyNcFnQwSiPXAXATMsv6Gs/view?usp=sharing" class="pdf-link" target="_blank">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong>Neural Architectures for Binary Classification Models</strong><br>
+            <a href="https://www.atmosera.com/binary-classification-with-neural-networks/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=71GtdWmznok" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>Neural Architectures for Multiclass Models</strong><br>
+            <a href="https://towardsdatascience.com/the-complete-guide-to-neural-networks-multinomial-classification-4fe88bde7839" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=2WdPdE2hq78" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="unit-header">Unit 4 Shallow Neural Networks</div>
+        <a href="https://drive.google.com/file/d/1OHKWdxV43lNIV7nWy9u2kIrr8JbABqFR/view?usp=sharing" class="pdf-link" target="_blank">PDF 1 - Version 1</a>
+        <a href="https://drive.google.com/file/d/1OtPjzB0N8zOyNcFnQwSiPXAXATMsv6Gs/view?usp=sharing" class="pdf-link" target="_blank">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong>Neural Architectures for Binary Classification Models</strong><br>
+            <a href="https://www.atmosera.com/binary-classification-with-neural-networks/" class="reference-link" target="_blank">Reference</a>
+            <a href="://www.youtube.com/watch?v=71GtdWmznok" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>Neural Architectures for Multiclass Models</strong><br>
+            <a href="https://towardsdatascience.com/the-complete-guide-to-neural-networks-multinomial-classification-4fe88bde7839" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=2WdPdE2hq78" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="unit-header">Unit 5 Shallow Neural Networks</div>
+        <a href="https://drive.google.com/file/d/1OHKWdxV43lNIV7nWy9u2kIrr8JbABqFR/view?usp=sharing" class="pdf-link" target="_blank">PDF 1 - Version 1</a>
+        <a href="https://drive.google.com/file/d/1OtPjzB0N8zOyNcFnQwSiPXAXATMsv6Gs/view?usp=sharing" class="pdf-link" target="_blank">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong>Neural Architectures for Binary Classification Models</strong><br>
+            <a href="https://www.atmosera.com/binary-classification-with-neural-networks/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=71GtdWmznok" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>Neural Architectures for Multiclass Models</strong><br>
+            <a href="https://towardsdatascience.com/the-complete-guide-to-neural-networks-multinomial-classification-4fe88bde7839" class="reference-link" target="_blank">Reference</a>
+            <a href="://www.youtube.com/watch?v=2WdPdE2hq78" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>

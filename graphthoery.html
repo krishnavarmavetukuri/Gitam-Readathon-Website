@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph Theory</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            background-color: #800000;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #e71313;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .content {
+            flex: 1 1 30%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        .unit-header {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .pdf-link {
+            display: block;
+            margin-bottom: 10px;
+            padding: 8px 16px;
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .pdf-link:hover {
+            background-color: #600000;
+        }
+        .subtopic {
+            margin-bottom: 10px;
+        }
+        .reference-link, .youtube-link {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 5px 10px;
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .reference-link:hover, .youtube-link:hover {
+            background-color: #600000;
+        }
+        .footer {
+            margin-top: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .previous-year-button {
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 16px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .previous-year-button:hover {
+            background-color: #600000;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <button class="back-button" onclick="window.history.back();">Back</button>
+    <h1>Graph Theory</h1>
+</div>
+
+<div class="container">
+    <!-- Unit 1 -->
+    <div class="content">
+        <div class="unit-header">UNIT - 1 Basics of Graph Theory</div>
+        <a href="https://drive.google.com/file/d/1_z84KigIRv7fuOExuMe6TGml49DF47li/view?usp=sharing" class="pdf-link" target="_blank">PDF 1 - Version 1</a>
+        <a href="https://drive.google.com/file/d/13XlneVvo9XcXuLK7yVRa7plEM5Vkvt7q/view?usp=sharing" class="pdf-link" target="_blank">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong>Finite and Infinite Graphs</strong><br>
+            <a href="https://www.geeksforgeeks.org/graph-types-and-applications/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=NKzZW1FSZls" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>Incidence and Degree</strong><br>
+            <a href="https://www.tutorialspoint.com/graph_theory/graph_theory_fundamentals.html" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=o_NMC2bJJ3E" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>Isolated Vertex </strong><br>
+            <a href="https://symbio6.nl/en/blog/theory/definition/isolated-vertex" class="reference-link" target="_blank">Reference</a>
+            <a href="https://symbio6.nl/en/blog/theory/definition/isolated-vertex" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+    <!-- Unit 2 -->
+    <div class="content">
+        <div class="unit-header">UNIT - 2 Matrix representation of graphs</div>
+        <a href="https://drive.google.com/file/d/1OHKWdxV43lNIV7nWy9u2kIrr8JbABqFR/view?usp=sharing" class="pdf-link" target="_blank">PDF 1 - Version 1</a>
+        <a href="https://drive.google.com/file/d/1OHKWdxV43lNIV7nWy9u2kIrr8JbABqFR/view?usp=sharing" class="pdf-link" target="_blank">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong>Adjacency Matrix</strong><br>
+            <a href="https://byjus.com/maths/adjacency-matrix/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=7AhHGp7EzZ8" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>Incidence Matrix </strong><br>
+            <a href="https://byjusexamprep.com/gate-ece/incidence-matrix" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=B6m8GTCSaiE" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>Path Matrix </strong><br>
+            <a href="https://scialert.net/fulltext/?doi=itj.2005.465.468#:~:text=The%20path%20matrix%20graph%20representation,closure%20of%20a%20database%20relation" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=B6m8GTCSaiE" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+    <!-- Unit 3 -->
+    <div class="content">
+        <div class="unit-header">UNIT - 3 Paths and circuits </div>
+        <a href="https://drive.google.com/file/d/1x05OYJFZefAfY9lokskEqAzszF9LA-qQ/view?usp=sharing" class="pdf-link">PDF 1 - Version 1</a>
+        <a href="https://drive.google.com/file/d/1eNWFuFQhcuZ7bYlZTemDdo5kOTvnU6qI/view?usp=sharing" class="pdf-link">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong>Paths & Circuits  </strong><br>
+            <a href="https://server.math.umanitoba.ca/~help/Path%20and%20Circuits.pdf" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=h9w-fgHGLMs" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>Connected & disconnected Graphs </strong><br>
+            <a href="https://www.tutorialspoint.com/connected-vs-disconnected-graphs" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=ydRSMpt3Jwk" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong> Hamiltonian graphs </strong><br>
+            <a href="https://www.tutorialspoint.com/hamiltonian-graphs" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=GiClUAJMMtw" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+    <!-- Unit 4 -->
+    <div class="content">
+        <div class="unit-header">UNIT - 4 Trees</div>
+        <a href="https://drive.google.com/file/d/1ggfYMZe9F9652p2KjHViQXLd-IxA5mEB/view?usp=sharing" class="pdf-link" target="_blank">PDF 1 - Version 1</a>
+        <a href="https://drive.google.com/file/d/1DsCtUoH0XmiczqmzlIX-RGMIAZRWtlkV/view?usp=sharing" class="pdf-link" target="_blank">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong>Trees and their properties </strong><br>
+            <a href="https://www.tutorialspoint.com/definition-and-properties-of-trees" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=43d1tdR6-Vw" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong> Spanning trees</strong><br>
+            <a href="https://www.geeksforgeeks.org/spanning-tree/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=fO-R1vwgsmw" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong> Kruskal’s algorithm </strong><br>
+            <a href="https://www.javatpoint.com/kruskal-algorithm" class="reference-link" target="_blank">Reference</a>
+            <a href=" https://www.youtube.com/watch?v=ivcbaIhrcsE" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+    <!-- Unit 5 -->
+    <div class="content">
+        <div class="unit-header">UNIT - 5 Applications of Trees and Fundamental circuits</div>
+        <a href="https://drive.google.com/file/d/1ioXBxLcJaHT_TFl9zzBd2JHSkMKe41Ud/view?usp=sharing" class="pdf-link" target="_blank"v>PDF 1 - Version 1</a>
+        <a href="https://drive.google.com/file/d/1fOk-a6_K_gx6wj-olQvpCJTHmkA_n_5z/view?usp=sharing" class="pdf-link" target="_blank">PDF 2 - Version 2</a>
+        <div class="subtopic">
+            <strong>Preorder, in order and post order traversals</strong><br>
+            <a href="https://www.javatpoint.com/tree-traversal" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=XRcC7bAtL3c" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong> Prefix and Postfix notations </strong><br>
+            <a href="https://www.geeksforgeeks.org/prefix-postfix-conversion/" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=RY4GkLahbCI" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="subtopic">
+            <strong>Parsing trees </strong><br>
+            <a href="https://www.javatpoint.com/parse-tree" class="reference-link" target="_blank">Reference</a>
+            <a href="https://www.youtube.com/watch?v=a1OLDU1QAfw" class="youtube-link" target="_blank">YouTube</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
