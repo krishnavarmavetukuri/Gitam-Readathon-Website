@@ -1,4 +1,6 @@
 # Gitam-Readathon-Website
+
+MySQL Database Tables
 ![WhatsApp Image 2024-05-26 at 5 23 55 PM](https://github.com/krishnavarmavetukuri/Gitam-Readathon-Website/assets/114820481/d4408712-fd4c-49c0-99c1-7ef7fd20abc4)
 
 ![WhatsApp Image 2024-05-26 at 5 25 14 PM](https://github.com/krishnavarmavetukuri/Gitam-Readathon-Website/assets/114820481/c4f07cde-6edd-4279-b003-f825e4a022d5)
